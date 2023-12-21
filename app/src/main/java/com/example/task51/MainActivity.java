@@ -18,4 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
         Tv = findViewById(R.id.Tv);
     }
+    public void clicked(View view) {
+        Tv.setText("Oh, yea, I’ve been clicked!");
+    }
 }
