@@ -2,6 +2,7 @@ package com.example.task51;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Tv = findViewById(R.id.Tv);
     }
     public void clicked(View view) {
+        Tv.setTextColor(Color.GREEN);
         Tv.setText("Oh, yea, I’ve been clicked!");
     }
 }
